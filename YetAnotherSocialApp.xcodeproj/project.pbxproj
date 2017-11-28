@@ -38,7 +38,7 @@
 		E028E4FA1FCCC8F400ECB6F6 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		E028E4FB1FCCC8F600ECB6F6 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
 		E028E4FE1FCCC8F800ECB6F6 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
-		E028E5001FCCC9A000ECB6F6 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = SOURCE_ROOT; };
+		E028E5001FCCC9A000ECB6F6 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "YetAnotherSocialApp/Supporting Files/GoogleMaps.bundle"; sourceTree = SOURCE_ROOT; };
 		E028E5021FCCCA4B00ECB6F6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		E028E5031FCCCA5200ECB6F6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		E028E5041FCCCA5B00ECB6F6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -103,6 +103,17 @@
 			path = YetAnotherSocialAppTests;
 			sourceTree = "<group>";
 		};
+		E028E5511FCDC98500ECB6F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0891EF41FCCC1FD00242171 /* LaunchScreen.storyboard */,
+				E028E5001FCCC9A000ECB6F6 /* GoogleMaps.bundle */,
+				E0891EF21FCCC1FD00242171 /* Assets.xcassets */,
+				E0891EF71FCCC1FD00242171 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		E0891EDF1FCCC1FD00242171 = {
 			isa = PBXGroup;
 			children = (
@@ -125,13 +136,10 @@
 		E0891EEA1FCCC1FD00242171 /* YetAnotherSocialApp */ = {
 			isa = PBXGroup;
 			children = (
-				E0891EF21FCCC1FD00242171 /* Assets.xcassets */,
-				E028E5001FCCC9A000ECB6F6 /* GoogleMaps.bundle */,
 				E0891EEB1FCCC1FD00242171 /* AppDelegate.swift */,
 				E0891EED1FCCC1FD00242171 /* ViewController.swift */,
 				E0891EEF1FCCC1FD00242171 /* Main.storyboard */,
-				E0891EF41FCCC1FD00242171 /* LaunchScreen.storyboard */,
-				E0891EF71FCCC1FD00242171 /* Info.plist */,
+				E028E5511FCDC98500ECB6F6 /* Supporting Files */,
 			);
 			path = YetAnotherSocialApp;
 			sourceTree = "<group>";

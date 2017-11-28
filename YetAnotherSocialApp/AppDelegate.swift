@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  YetAnotherSocialApp
-//
-//  Created by Feynman on 11/27/17.
-//  Copyright © 2017 Kevin Kanhirun. All rights reserved.
-//
-
 import UIKit
 import GoogleMaps
 

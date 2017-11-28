@@ -13,6 +13,7 @@
 		E028E5011FCCC9A000ECB6F6 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E028E5001FCCC9A000ECB6F6 /* GoogleMaps.bundle */; };
 		E028E50C1FCCCA8400ECB6F6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E50B1FCCCA8400ECB6F6 /* libc++.tbd */; };
 		E028E50E1FCCCA8B00ECB6F6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E50D1FCCCA8A00ECB6F6 /* libz.tbd */; };
+		E028E5141FCDBD0B00ECB6F6 /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E5131FCDBD0B00ECB6F6 /* GooglePlaces.framework */; };
 		E0891EEC1FCCC1FD00242171 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0891EEB1FCCC1FD00242171 /* AppDelegate.swift */; };
 		E0891EEE1FCCC1FD00242171 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0891EED1FCCC1FD00242171 /* ViewController.swift */; };
 		E0891EF11FCCC1FD00242171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0891EEF1FCCC1FD00242171 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		E028E50F1FCCCA9300ECB6F6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E028E5101FCCCA9B00ECB6F6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E028E5111FCCCAA000ECB6F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E028E5131FCDBD0B00ECB6F6 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlaces.framework; sourceTree = "<group>"; };
 		E0891EE81FCCC1FD00242171 /* YetAnotherSocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YetAnotherSocialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0891EEB1FCCC1FD00242171 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0891EED1FCCC1FD00242171 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				E028E4FF1FCCC8F900ECB6F6 /* GoogleMapsBase.framework in Frameworks */,
 				E028E4FC1FCCC8F600ECB6F6 /* GoogleMaps.framework in Frameworks */,
 				E028E50C1FCCCA8400ECB6F6 /* libc++.tbd in Frameworks */,
+				E028E5141FCDBD0B00ECB6F6 /* GooglePlaces.framework in Frameworks */,
 				E028E4FD1FCCC8F600ECB6F6 /* GoogleMapsCore.framework in Frameworks */,
 				E028E50E1FCCCA8B00ECB6F6 /* libz.tbd in Frameworks */,
 			);
@@ -115,6 +118,7 @@
 				E028E4FE1FCCC8F800ECB6F6 /* GoogleMapsBase.framework */,
 				E028E4FA1FCCC8F400ECB6F6 /* GoogleMaps.framework */,
 				E028E4FB1FCCC8F600ECB6F6 /* GoogleMapsCore.framework */,
+				E028E5131FCDBD0B00ECB6F6 /* GooglePlaces.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";

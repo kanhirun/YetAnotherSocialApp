@@ -14,12 +14,25 @@
 		E028E50C1FCCCA8400ECB6F6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E50B1FCCCA8400ECB6F6 /* libc++.tbd */; };
 		E028E50E1FCCCA8B00ECB6F6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E50D1FCCCA8A00ECB6F6 /* libz.tbd */; };
 		E028E5141FCDBD0B00ECB6F6 /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E5131FCDBD0B00ECB6F6 /* GooglePlaces.framework */; };
+		E028E5451FCDC7BA00ECB6F6 /* BasicTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028E5441FCDC7BA00ECB6F6 /* BasicTest.swift */; };
+		E028E54E1FCDC7CA00ECB6F6 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E54C1FCDC7CA00ECB6F6 /* Nimble.framework */; };
+		E028E54F1FCDC7CA00ECB6F6 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E54D1FCDC7CA00ECB6F6 /* Quick.framework */; };
 		E0891EEC1FCCC1FD00242171 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0891EEB1FCCC1FD00242171 /* AppDelegate.swift */; };
 		E0891EEE1FCCC1FD00242171 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0891EED1FCCC1FD00242171 /* ViewController.swift */; };
 		E0891EF11FCCC1FD00242171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0891EEF1FCCC1FD00242171 /* Main.storyboard */; };
 		E0891EF31FCCC1FD00242171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0891EF21FCCC1FD00242171 /* Assets.xcassets */; };
 		E0891EF61FCCC1FD00242171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0891EF41FCCC1FD00242171 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E028E5471FCDC7BA00ECB6F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0891EE01FCCC1FD00242171 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0891EE71FCCC1FD00242171;
+			remoteInfo = YetAnotherSocialApp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E028E4FA1FCCC8F400ECB6F6 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
@@ -41,6 +54,11 @@
 		E028E5101FCCCA9B00ECB6F6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E028E5111FCCCAA000ECB6F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E028E5131FCDBD0B00ECB6F6 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlaces.framework; sourceTree = "<group>"; };
+		E028E5421FCDC7BA00ECB6F6 /* YetAnotherSocialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YetAnotherSocialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E028E5441FCDC7BA00ECB6F6 /* BasicTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTest.swift; sourceTree = "<group>"; };
+		E028E5461FCDC7BA00ECB6F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E028E54C1FCDC7CA00ECB6F6 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = SOURCE_ROOT; };
+		E028E54D1FCDC7CA00ECB6F6 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = SOURCE_ROOT; };
 		E0891EE81FCCC1FD00242171 /* YetAnotherSocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YetAnotherSocialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0891EEB1FCCC1FD00242171 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0891EED1FCCC1FD00242171 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +69,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E028E53F1FCDC7BA00ECB6F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E028E54E1FCDC7CA00ECB6F6 /* Nimble.framework in Frameworks */,
+				E028E54F1FCDC7CA00ECB6F6 /* Quick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0891EE51FCCC1FD00242171 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -67,10 +94,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E028E5431FCDC7BA00ECB6F6 /* YetAnotherSocialAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E028E5441FCDC7BA00ECB6F6 /* BasicTest.swift */,
+				E028E5461FCDC7BA00ECB6F6 /* Info.plist */,
+			);
+			path = YetAnotherSocialAppTests;
+			sourceTree = "<group>";
+		};
 		E0891EDF1FCCC1FD00242171 = {
 			isa = PBXGroup;
 			children = (
 				E0891EEA1FCCC1FD00242171 /* YetAnotherSocialApp */,
+				E028E5431FCDC7BA00ECB6F6 /* YetAnotherSocialAppTests */,
 				E0891EFD1FCCC8AD00242171 /* Frameworks */,
 				E0891EE91FCCC1FD00242171 /* Products */,
 			);
@@ -80,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				E0891EE81FCCC1FD00242171 /* YetAnotherSocialApp.app */,
+				E028E5421FCDC7BA00ECB6F6 /* YetAnotherSocialAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +139,8 @@
 		E0891EFD1FCCC8AD00242171 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E028E54C1FCDC7CA00ECB6F6 /* Nimble.framework */,
+				E028E54D1FCDC7CA00ECB6F6 /* Quick.framework */,
 				E028E5111FCCCAA000ECB6F6 /* UIKit.framework */,
 				E028E5101FCCCA9B00ECB6F6 /* SystemConfiguration.framework */,
 				E028E50F1FCCCA9300ECB6F6 /* QuartzCore.framework */,
@@ -126,6 +166,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E028E5411FCDC7BA00ECB6F6 /* YetAnotherSocialAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E028E5491FCDC7BA00ECB6F6 /* Build configuration list for PBXNativeTarget "YetAnotherSocialAppTests" */;
+			buildPhases = (
+				E028E53E1FCDC7BA00ECB6F6 /* Sources */,
+				E028E53F1FCDC7BA00ECB6F6 /* Frameworks */,
+				E028E5401FCDC7BA00ECB6F6 /* Resources */,
+				E028E5501FCDC83700ECB6F6 /* Carthage Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E028E5481FCDC7BA00ECB6F6 /* PBXTargetDependency */,
+			);
+			name = YetAnotherSocialAppTests;
+			productName = YetAnotherSocialAppTests;
+			productReference = E028E5421FCDC7BA00ECB6F6 /* YetAnotherSocialAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E0891EE71FCCC1FD00242171 /* YetAnotherSocialApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0891EFA1FCCC1FD00242171 /* Build configuration list for PBXNativeTarget "YetAnotherSocialApp" */;
@@ -153,6 +212,11 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Kevin Kanhirun";
 				TargetAttributes = {
+					E028E5411FCDC7BA00ECB6F6 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E0891EE71FCCC1FD00242171;
+					};
 					E0891EE71FCCC1FD00242171 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
@@ -173,11 +237,19 @@
 			projectRoot = "";
 			targets = (
 				E0891EE71FCCC1FD00242171 /* YetAnotherSocialApp */,
+				E028E5411FCDC7BA00ECB6F6 /* YetAnotherSocialAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E028E5401FCDC7BA00ECB6F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0891EE61FCCC1FD00242171 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -191,7 +263,36 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E028E5501FCDC83700ECB6F6 /* Carthage Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+			);
+			name = "Carthage Run Script";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Quick.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		E028E53E1FCDC7BA00ECB6F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E028E5451FCDC7BA00ECB6F6 /* BasicTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0891EE41FCCC1FD00242171 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -202,6 +303,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E028E5481FCDC7BA00ECB6F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0891EE71FCCC1FD00242171 /* YetAnotherSocialApp */;
+			targetProxy = E028E5471FCDC7BA00ECB6F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E0891EEF1FCCC1FD00242171 /* Main.storyboard */ = {
@@ -223,6 +332,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E028E54A1FCDC7BA00ECB6F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3LFEVXR386;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = YetAnotherSocialAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YASA.YetAnotherSocialAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YetAnotherSocialApp.app/YetAnotherSocialApp";
+			};
+			name = Debug;
+		};
+		E028E54B1FCDC7BA00ECB6F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3LFEVXR386;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = YetAnotherSocialAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YASA.YetAnotherSocialAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YetAnotherSocialApp.app/YetAnotherSocialApp";
+			};
+			name = Release;
+		};
 		E0891EF81FCCC1FD00242171 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -375,6 +524,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E028E5491FCDC7BA00ECB6F6 /* Build configuration list for PBXNativeTarget "YetAnotherSocialAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E028E54A1FCDC7BA00ECB6F6 /* Debug */,
+				E028E54B1FCDC7BA00ECB6F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E0891EE31FCCC1FD00242171 /* Build configuration list for PBXProject "YetAnotherSocialApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

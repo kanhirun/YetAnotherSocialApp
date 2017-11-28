@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E008EF181FD4D9A700DDB804 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E008EF171FD4D9A700DDB804 /* main.swift */; };
+		E008EF1A1FD4D9D100DDB804 /* TestAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E008EF191FD4D9D100DDB804 /* TestAppDelegate.swift */; };
+		E008EF201FD4DFE300DDB804 /* FakePlaceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E008EF1F1FD4DFE300DDB804 /* FakePlaceClient.swift */; };
+		E008EF221FD4E4CD00DDB804 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = E008EF211FD4E4CD00DDB804 /* Contact.swift */; };
 		E028E4FC1FCCC8F600ECB6F6 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E4FA1FCCC8F400ECB6F6 /* GoogleMaps.framework */; };
 		E028E4FD1FCCC8F600ECB6F6 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E4FB1FCCC8F600ECB6F6 /* GoogleMapsCore.framework */; };
 		E028E4FF1FCCC8F900ECB6F6 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E4FE1FCCC8F800ECB6F6 /* GoogleMapsBase.framework */; };
@@ -14,14 +18,37 @@
 		E028E50C1FCCCA8400ECB6F6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E50B1FCCCA8400ECB6F6 /* libc++.tbd */; };
 		E028E50E1FCCCA8B00ECB6F6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E50D1FCCCA8A00ECB6F6 /* libz.tbd */; };
 		E028E5141FCDBD0B00ECB6F6 /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E5131FCDBD0B00ECB6F6 /* GooglePlaces.framework */; };
-		E028E5451FCDC7BA00ECB6F6 /* BasicTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028E5441FCDC7BA00ECB6F6 /* BasicTest.swift */; };
 		E028E54E1FCDC7CA00ECB6F6 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E54C1FCDC7CA00ECB6F6 /* Nimble.framework */; };
 		E028E54F1FCDC7CA00ECB6F6 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E54D1FCDC7CA00ECB6F6 /* Quick.framework */; };
+		E028E5551FCF1C1600ECB6F6 /* PlaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028E5541FCF1C1600ECB6F6 /* PlaceService.swift */; };
+		E028E5581FCF1DFA00ECB6F6 /* ContactService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E028E5571FCF1DFA00ECB6F6 /* ContactService.swift */; };
+		E028E55C1FCF252A00ECB6F6 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E5591FCF252A00ECB6F6 /* ReactiveCocoa.framework */; };
+		E028E55D1FCF252A00ECB6F6 /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E55A1FCF252A00ECB6F6 /* ReactiveSwift.framework */; };
+		E028E55E1FCF252A00ECB6F6 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E028E55B1FCF252A00ECB6F6 /* Result.framework */; };
+		E02FCA9F1FD1C5E800792152 /* PlaceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FCA9E1FD1C5E800792152 /* PlaceDetailViewController.swift */; };
+		E03692EA1FD4FC5C00639035 /* FactorySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03692E91FD4FC5C00639035 /* FactorySpec.swift */; };
+		E03692EC1FD4FEEA00639035 /* ContactSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03692EB1FD4FEEA00639035 /* ContactSpec.swift */; };
+		E03692EE1FD500DA00639035 /* Contact+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03692ED1FD500DA00639035 /* Contact+Equatable.swift */; };
+		E03692F21FD5043600639035 /* Contact+build.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03692F11FD5043600639035 /* Contact+build.swift */; };
+		E03692F71FD516FC00639035 /* MessageServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03692F61FD516FC00639035 /* MessageServiceSpec.swift */; };
+		E03692F91FD51D1000639035 /* Message+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03692F81FD51D1000639035 /* Message+Equatable.swift */; };
+		E03692FE1FD543B300639035 /* PlaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03692FD1FD543B200639035 /* PlaceViewModel.swift */; };
+		E03693001FD59EE200639035 /* PlaceViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03692FF1FD59EE200639035 /* PlaceViewModelSpec.swift */; };
+		E03693021FD5A0E700639035 /* Message+build.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03693011FD5A0E700639035 /* Message+build.swift */; };
+		E038BA0A1FD312E20094DCAE /* PlaceViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038BA091FD312E20094DCAE /* PlaceViewControllerSpec.swift */; };
+		E038BA0D1FD3159B0094DCAE /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038BA0C1FD3159B0094DCAE /* Factory.swift */; };
 		E0891EEC1FCCC1FD00242171 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0891EEB1FCCC1FD00242171 /* AppDelegate.swift */; };
-		E0891EEE1FCCC1FD00242171 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0891EED1FCCC1FD00242171 /* ViewController.swift */; };
+		E0891EEE1FCCC1FD00242171 /* PlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0891EED1FCCC1FD00242171 /* PlaceViewController.swift */; };
 		E0891EF11FCCC1FD00242171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0891EEF1FCCC1FD00242171 /* Main.storyboard */; };
 		E0891EF31FCCC1FD00242171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0891EF21FCCC1FD00242171 /* Assets.xcassets */; };
 		E0891EF61FCCC1FD00242171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0891EF41FCCC1FD00242171 /* LaunchScreen.storyboard */; };
+		E098C0E71FD4990A008BB469 /* PlaceServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E098C0E61FD4990A008BB469 /* PlaceServiceSpec.swift */; };
+		E0B37F481FD494420060FF95 /* Matcher+beDisabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B37F471FD494420060FF95 /* Matcher+beDisabled.swift */; };
+		E0C724C41FD4A78B00D74077 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C724C31FD4A78B00D74077 /* Message.swift */; };
+		E0C724CA1FD4AE3800D74077 /* Place+build.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C724C91FD4AE3800D74077 /* Place+build.swift */; };
+		E0E644A31FD32FF60058A7C8 /* TestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E644A21FD32FF60058A7C8 /* TestFactory.swift */; };
+		E0E644A51FD3360E0058A7C8 /* PlaceSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E644A41FD3360E0058A7C8 /* PlaceSearchViewController.swift */; };
+		E0E644AD1FD346670058A7C8 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E644AC1FD346670058A7C8 /* MessageService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +62,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E008EF171FD4D9A700DDB804 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E008EF191FD4D9D100DDB804 /* TestAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppDelegate.swift; sourceTree = "<group>"; };
+		E008EF1F1FD4DFE300DDB804 /* FakePlaceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakePlaceClient.swift; sourceTree = "<group>"; };
+		E008EF211FD4E4CD00DDB804 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		E028E4FA1FCCC8F400ECB6F6 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		E028E4FB1FCCC8F600ECB6F6 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
 		E028E4FE1FCCC8F800ECB6F6 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
@@ -55,17 +86,40 @@
 		E028E5111FCCCAA000ECB6F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E028E5131FCDBD0B00ECB6F6 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlaces.framework; sourceTree = "<group>"; };
 		E028E5421FCDC7BA00ECB6F6 /* YetAnotherSocialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YetAnotherSocialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E028E5441FCDC7BA00ECB6F6 /* BasicTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTest.swift; sourceTree = "<group>"; };
 		E028E5461FCDC7BA00ECB6F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E028E54C1FCDC7CA00ECB6F6 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = SOURCE_ROOT; };
 		E028E54D1FCDC7CA00ECB6F6 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = SOURCE_ROOT; };
+		E028E5541FCF1C1600ECB6F6 /* PlaceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceService.swift; sourceTree = "<group>"; };
+		E028E5571FCF1DFA00ECB6F6 /* ContactService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactService.swift; sourceTree = "<group>"; };
+		E028E5591FCF252A00ECB6F6 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = SOURCE_ROOT; };
+		E028E55A1FCF252A00ECB6F6 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = SOURCE_ROOT; };
+		E028E55B1FCF252A00ECB6F6 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = SOURCE_ROOT; };
+		E02FCA9E1FD1C5E800792152 /* PlaceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailViewController.swift; sourceTree = "<group>"; };
+		E03692E91FD4FC5C00639035 /* FactorySpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorySpec.swift; sourceTree = "<group>"; };
+		E03692EB1FD4FEEA00639035 /* ContactSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSpec.swift; sourceTree = "<group>"; };
+		E03692ED1FD500DA00639035 /* Contact+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+Equatable.swift"; sourceTree = "<group>"; };
+		E03692F11FD5043600639035 /* Contact+build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+build.swift"; sourceTree = "<group>"; };
+		E03692F61FD516FC00639035 /* MessageServiceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageServiceSpec.swift; sourceTree = "<group>"; };
+		E03692F81FD51D1000639035 /* Message+Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+Equatable.swift"; sourceTree = "<group>"; };
+		E03692FD1FD543B200639035 /* PlaceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewModel.swift; sourceTree = "<group>"; };
+		E03692FF1FD59EE200639035 /* PlaceViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewModelSpec.swift; sourceTree = "<group>"; };
+		E03693011FD5A0E700639035 /* Message+build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+build.swift"; sourceTree = "<group>"; };
+		E038BA091FD312E20094DCAE /* PlaceViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewControllerSpec.swift; sourceTree = "<group>"; };
+		E038BA0C1FD3159B0094DCAE /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		E0891EE81FCCC1FD00242171 /* YetAnotherSocialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YetAnotherSocialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0891EEB1FCCC1FD00242171 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0891EED1FCCC1FD00242171 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0891EED1FCCC1FD00242171 /* PlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceViewController.swift; sourceTree = "<group>"; };
 		E0891EF01FCCC1FD00242171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0891EF21FCCC1FD00242171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0891EF51FCCC1FD00242171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0891EF71FCCC1FD00242171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E098C0E61FD4990A008BB469 /* PlaceServiceSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceServiceSpec.swift; sourceTree = "<group>"; };
+		E0B37F471FD494420060FF95 /* Matcher+beDisabled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Matcher+beDisabled.swift"; sourceTree = "<group>"; };
+		E0C724C31FD4A78B00D74077 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E0C724C91FD4AE3800D74077 /* Place+build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Place+build.swift"; sourceTree = "<group>"; };
+		E0E644A21FD32FF60058A7C8 /* TestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFactory.swift; sourceTree = "<group>"; };
+		E0E644A41FD3360E0058A7C8 /* PlaceSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearchViewController.swift; sourceTree = "<group>"; };
+		E0E644AC1FD346670058A7C8 /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +136,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E028E55C1FCF252A00ECB6F6 /* ReactiveCocoa.framework in Frameworks */,
+				E028E55D1FCF252A00ECB6F6 /* ReactiveSwift.framework in Frameworks */,
+				E028E55E1FCF252A00ECB6F6 /* Result.framework in Frameworks */,
 				E028E4FF1FCCC8F900ECB6F6 /* GoogleMapsBase.framework in Frameworks */,
 				E028E4FC1FCCC8F600ECB6F6 /* GoogleMaps.framework in Frameworks */,
 				E028E50C1FCCCA8400ECB6F6 /* libc++.tbd in Frameworks */,
@@ -94,11 +151,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E008EF1B1FD4D9E600DDB804 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E008EF191FD4D9D100DDB804 /* TestAppDelegate.swift */,
+				E03692F81FD51D1000639035 /* Message+Equatable.swift */,
+				E03692ED1FD500DA00639035 /* Contact+Equatable.swift */,
+				E008EF1E1FD4DFD200DDB804 /* Fakes */,
+				E0C3AFDE1FD05834007233C3 /* Custom Matchers */,
+				E0C724C81FD4AE2A00D74077 /* Factories */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		E008EF1E1FD4DFD200DDB804 /* Fakes */ = {
+			isa = PBXGroup;
+			children = (
+				E008EF1F1FD4DFE300DDB804 /* FakePlaceClient.swift */,
+			);
+			path = Fakes;
+			sourceTree = "<group>";
+		};
 		E028E5431FCDC7BA00ECB6F6 /* YetAnotherSocialAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				E028E5441FCDC7BA00ECB6F6 /* BasicTest.swift */,
 				E028E5461FCDC7BA00ECB6F6 /* Info.plist */,
+				E038BA091FD312E20094DCAE /* PlaceViewControllerSpec.swift */,
+				E03692FF1FD59EE200639035 /* PlaceViewModelSpec.swift */,
+				E098C0E61FD4990A008BB469 /* PlaceServiceSpec.swift */,
+				E03692F61FD516FC00639035 /* MessageServiceSpec.swift */,
+				E03692EB1FD4FEEA00639035 /* ContactSpec.swift */,
+				E03692E91FD4FC5C00639035 /* FactorySpec.swift */,
+				E008EF1B1FD4D9E600DDB804 /* Util */,
 			);
 			path = YetAnotherSocialAppTests;
 			sourceTree = "<group>";
@@ -106,12 +190,30 @@
 		E028E5511FCDC98500ECB6F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E0891EF41FCCC1FD00242171 /* LaunchScreen.storyboard */,
-				E028E5001FCCC9A000ECB6F6 /* GoogleMaps.bundle */,
+				E008EF171FD4D9A700DDB804 /* main.swift */,
 				E0891EF21FCCC1FD00242171 /* Assets.xcassets */,
-				E0891EF71FCCC1FD00242171 /* Info.plist */,
+				E028E5001FCCC9A000ECB6F6 /* GoogleMaps.bundle */,
+				E0891EF41FCCC1FD00242171 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E028E5561FCF1C3400ECB6F6 /* __Services */ = {
+			isa = PBXGroup;
+			children = (
+				E028E5541FCF1C1600ECB6F6 /* PlaceService.swift */,
+				E0E644AC1FD346670058A7C8 /* MessageService.swift */,
+				E028E5571FCF1DFA00ECB6F6 /* ContactService.swift */,
+			);
+			path = __Services;
+			sourceTree = "<group>";
+		};
+		E038BA0B1FD315890094DCAE /* __Factories */ = {
+			isa = PBXGroup;
+			children = (
+				E038BA0C1FD3159B0094DCAE /* Factory.swift */,
+			);
+			path = __Factories;
 			sourceTree = "<group>";
 		};
 		E0891EDF1FCCC1FD00242171 = {
@@ -136,9 +238,13 @@
 		E0891EEA1FCCC1FD00242171 /* YetAnotherSocialApp */ = {
 			isa = PBXGroup;
 			children = (
-				E0891EEB1FCCC1FD00242171 /* AppDelegate.swift */,
-				E0891EED1FCCC1FD00242171 /* ViewController.swift */,
+				E0891EF71FCCC1FD00242171 /* Info.plist */,
 				E0891EEF1FCCC1FD00242171 /* Main.storyboard */,
+				E0891EEB1FCCC1FD00242171 /* AppDelegate.swift */,
+				E0E644A61FD338450058A7C8 /* Place */,
+				E028E5561FCF1C3400ECB6F6 /* __Services */,
+				E0C724C21FD4A77A00D74077 /* __Models */,
+				E038BA0B1FD315890094DCAE /* __Factories */,
 				E028E5511FCDC98500ECB6F6 /* Supporting Files */,
 			);
 			path = YetAnotherSocialApp;
@@ -147,6 +253,9 @@
 		E0891EFD1FCCC8AD00242171 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E028E5591FCF252A00ECB6F6 /* ReactiveCocoa.framework */,
+				E028E55A1FCF252A00ECB6F6 /* ReactiveSwift.framework */,
+				E028E55B1FCF252A00ECB6F6 /* Result.framework */,
 				E028E54C1FCDC7CA00ECB6F6 /* Nimble.framework */,
 				E028E54D1FCDC7CA00ECB6F6 /* Quick.framework */,
 				E028E5111FCCCAA000ECB6F6 /* UIKit.framework */,
@@ -169,6 +278,45 @@
 				E028E5131FCDBD0B00ECB6F6 /* GooglePlaces.framework */,
 			);
 			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0C3AFDE1FD05834007233C3 /* Custom Matchers */ = {
+			isa = PBXGroup;
+			children = (
+				E0B37F471FD494420060FF95 /* Matcher+beDisabled.swift */,
+			);
+			path = "Custom Matchers";
+			sourceTree = "<group>";
+		};
+		E0C724C21FD4A77A00D74077 /* __Models */ = {
+			isa = PBXGroup;
+			children = (
+				E0C724C31FD4A78B00D74077 /* Message.swift */,
+				E008EF211FD4E4CD00DDB804 /* Contact.swift */,
+			);
+			path = __Models;
+			sourceTree = "<group>";
+		};
+		E0C724C81FD4AE2A00D74077 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				E0E644A21FD32FF60058A7C8 /* TestFactory.swift */,
+				E0C724C91FD4AE3800D74077 /* Place+build.swift */,
+				E03692F11FD5043600639035 /* Contact+build.swift */,
+				E03693011FD5A0E700639035 /* Message+build.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		E0E644A61FD338450058A7C8 /* Place */ = {
+			isa = PBXGroup;
+			children = (
+				E0891EED1FCCC1FD00242171 /* PlaceViewController.swift */,
+				E02FCA9E1FD1C5E800792152 /* PlaceDetailViewController.swift */,
+				E0E644A41FD3360E0058A7C8 /* PlaceSearchViewController.swift */,
+				E03692FD1FD543B200639035 /* PlaceViewModel.swift */,
+			);
+			path = Place;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +348,7 @@
 				E0891EE41FCCC1FD00242171 /* Sources */,
 				E0891EE51FCCC1FD00242171 /* Frameworks */,
 				E0891EE61FCCC1FD00242171 /* Resources */,
+				E028E55F1FCF252E00ECB6F6 /* Carthage Run Script */,
 			);
 			buildRules = (
 			);
@@ -290,6 +439,26 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
+		E028E55F1FCF252E00ECB6F6 /* Carthage Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+			);
+			name = "Carthage Run Script";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Result.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ReactiveSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ReactiveCocoa.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -297,7 +466,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E028E5451FCDC7BA00ECB6F6 /* BasicTest.swift in Sources */,
+				E098C0E71FD4990A008BB469 /* PlaceServiceSpec.swift in Sources */,
+				E0E644A31FD32FF60058A7C8 /* TestFactory.swift in Sources */,
+				E03693021FD5A0E700639035 /* Message+build.swift in Sources */,
+				E008EF1A1FD4D9D100DDB804 /* TestAppDelegate.swift in Sources */,
+				E0B37F481FD494420060FF95 /* Matcher+beDisabled.swift in Sources */,
+				E03692F91FD51D1000639035 /* Message+Equatable.swift in Sources */,
+				E03693001FD59EE200639035 /* PlaceViewModelSpec.swift in Sources */,
+				E038BA0A1FD312E20094DCAE /* PlaceViewControllerSpec.swift in Sources */,
+				E0C724CA1FD4AE3800D74077 /* Place+build.swift in Sources */,
+				E008EF201FD4DFE300DDB804 /* FakePlaceClient.swift in Sources */,
+				E03692EC1FD4FEEA00639035 /* ContactSpec.swift in Sources */,
+				E03692F71FD516FC00639035 /* MessageServiceSpec.swift in Sources */,
+				E03692EA1FD4FC5C00639035 /* FactorySpec.swift in Sources */,
+				E03692F21FD5043600639035 /* Contact+build.swift in Sources */,
+				E03692EE1FD500DA00639035 /* Contact+Equatable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,8 +488,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0891EEE1FCCC1FD00242171 /* ViewController.swift in Sources */,
+				E008EF221FD4E4CD00DDB804 /* Contact.swift in Sources */,
+				E0891EEE1FCCC1FD00242171 /* PlaceViewController.swift in Sources */,
+				E0E644AD1FD346670058A7C8 /* MessageService.swift in Sources */,
+				E008EF181FD4D9A700DDB804 /* main.swift in Sources */,
+				E03692FE1FD543B300639035 /* PlaceViewModel.swift in Sources */,
+				E0E644A51FD3360E0058A7C8 /* PlaceSearchViewController.swift in Sources */,
 				E0891EEC1FCCC1FD00242171 /* AppDelegate.swift in Sources */,
+				E02FCA9F1FD1C5E800792152 /* PlaceDetailViewController.swift in Sources */,
+				E0C724C41FD4A78B00D74077 /* Message.swift in Sources */,
+				E038BA0D1FD3159B0094DCAE /* Factory.swift in Sources */,
+				E028E5581FCF1DFA00ECB6F6 /* ContactService.swift in Sources */,
+				E028E5551FCF1C1600ECB6F6 /* PlaceService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +621,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
@@ -480,7 +673,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
@@ -498,6 +691,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = YetAnotherSocialApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -518,6 +712,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = YetAnotherSocialApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

@@ -1,0 +1,3 @@
+import GooglePlaces
+
+typealias PlaceSearchViewController = GMSAutocompleteViewController

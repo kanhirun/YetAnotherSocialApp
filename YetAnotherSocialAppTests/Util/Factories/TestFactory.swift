@@ -3,7 +3,7 @@ import UIKit
 
 final class TestFactory {
 
-    static let window = UIWindow()
+    static let window = UIApplication.shared.keyWindow!
 
     static func create(_ placeVC: PlaceViewController.Type,
                        selectedPlaces: PlaceService,
@@ -19,7 +19,6 @@ final class TestFactory {
         )
 
         window.rootViewController = controller
-        window.makeKeyAndVisible()
 
         return controller
     }
